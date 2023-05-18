@@ -14,7 +14,7 @@ You can run the project with the command 'python test.py'. Alternatively, you ca
 ## Task Background
 I completed the project content in approximately one day. I am aware that the task is expected to take about 1 hour, but due to my lack of knowledge in the networking field, the research and development process took a bit longer. I must admit that I learned a lot during this process, even though I didn't even know terms like network, subnet, mask.
 
-I worked with the 'ipaddresses' and 'netaddr' libraries and read their documentation. Unfortunately, I couldn't achieve the desired results using functions like 'subnet_of', 'supernet', 'cidr_merge' with these libraries, so I followed a path where I could come up with my own solution.
+I worked with the 'ipaddress' and 'netaddr' libraries and read their documentation. Unfortunately, I couldn't achieve the desired results using functions like 'subnet_of', 'supernet', 'cidr_merge' with these libraries, so I followed a path where I could come up with my own solution.
 
 In the task, I chose a path that progresses by splitting string values, but later in my research, I realized that taking the 'longest_common_prefix' value in the 'binary' format rather than the 'string' format would be more efficient, but I couldn't implement this change in order not to be even more delayed.
 
